@@ -1,0 +1,39 @@
+body
+{
+    background-color: turquoise;
+}
+
+h1
+{
+    color: rgb(38, 0, 255);
+    font-weight: 5px;
+    font-size: 40px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: burlywood;
+}
+
+canvas
+{
+    border: 5px solid aqua;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 5s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example
+{
+    from {box-shadow: 1px 1px 38px navy;}
+    to {box-shadow: 1px 1px 38px red;}
+}
+
+p
+{
+    padding-top: 10px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    color: tomato;
+}
